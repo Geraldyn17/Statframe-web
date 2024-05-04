@@ -1,0 +1,27 @@
+{
+  "name": "sf",
+  "version": "1.0.0",
+  "description": "back de el sitio web de statframe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json": "json-server index.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geraldyn17/Statframe-web.git"
+  },
+  "keywords": [
+    "statframe",
+    "download"
+  ],
+  "author": "Rei, Geraldyn, Mariana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geraldyn17/Statframe-web/issues"
+  },
+  "homepage": "https://github.com/Geraldyn17/Statframe-web#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
