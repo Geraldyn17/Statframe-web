@@ -5,9 +5,9 @@ import "./Nav.css"
 
 const NavigationBar = () => {
   return (
-    <div>
+    <div className='navBar'>
       <ul className='bar'>
-        <li><img src={logo} alt="" /></li>
+        <li><img className='imgLogo' src={logo} alt="" /></li>
         <li className='A1'><a href="/">Noticias</a></li>
         <li className='A1'><a href="/">Historia</a></li>
       </ul>

@@ -4,41 +4,41 @@ margin: 0;
 
 
 }
-body{
+/* body{
     background-color: black;
-}
+} */
 
 @font-face {
     font-family: 'subway-haze';
     src: url('https://www.dafont.com/es/subway-haze.font') format('truetype'); 
     
 }
-div{
+.navBar{
    
     margin-left: 25px;
     margin-top: 25px;
 }
 
- ul{
+ .bar{
     display: flex;
     list-style-type: none;
     align-items: center;
     
  }
- ul li{
+ .A1{
     margin-left: 25px;
     margin-top: 25px;
     
     
 
  }
- img{
+ .imgLogo{
     margin-right: 15px;
  }
  .A1{
     margin-bottom: 10px;
  }
- ul li a{
+ .A1 a{
     text-decoration: none;
     color: white;
     font-size: 18px;
