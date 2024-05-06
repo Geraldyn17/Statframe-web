@@ -1,4 +1,4 @@
-import NavigationBar from "../../Nav"
+import NavigationBar from "../../helpers/Nav"
 
 const Home = () => {
     return (
