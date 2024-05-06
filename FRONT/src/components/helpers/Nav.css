@@ -14,7 +14,9 @@ margin: 0;
     
 }
 .navBar{
-   
+   position: absolute;
+   top: 0;
+   z-index: 1;
     margin-left: 25px;
     margin-top: 25px;
 }
