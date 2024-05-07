@@ -1,0 +1,48 @@
+.homeMainContainer{
+    height: 100vh;
+    width: 100%;
+    background-image:url(../../../assets/fondoinicio.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+
+.mainInfo{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    right: 5%;
+}
+.SFicon{
+    position: relative;
+    left: 200px;
+    margin-bottom: 50px;
+}
+.mainInfo p{
+    
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: aliceblue;
+}
+
+
+.downloadbtn{
+    width: 300px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+}
+.downloadIcon{
+  width: 30px;
+  margin: 10px;
+  
+  
+}
