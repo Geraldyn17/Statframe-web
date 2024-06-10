@@ -1,0 +1,86 @@
+.newsMainContainer {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../../../assets/FONDONOTICIAS.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: 'Montserrat', sans-serif; 
+  color: #fff;
+}
+
+.cards-conteiner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  height: auto; 
+  padding: 10px; 
+  box-sizing: border-box; 
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.card {
+  width: 100%; 
+  height: 100%; 
+  margin: 10px 0; 
+  border: none;
+  border-radius: 12px; 
+ background-color: rgba(0, 0, 0, 0.349);
+  overflow: hidden;
+  box-sizing: border-box; 
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.card img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+  cursor: pointer;
+}
+
+.card .card-body {
+  padding: 10px;
+  height: auto; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.card .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #cdd239;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  align-self: flex-end; 
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.card .btn:hover {
+  background-color: #5f6b09;
+  font-family: 'Montserrat', sans-serif; 
+}

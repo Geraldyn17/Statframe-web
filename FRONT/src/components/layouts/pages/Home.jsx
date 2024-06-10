@@ -1,5 +1,7 @@
 import NavigationBar from "../../helpers/Nav"
 import Footer from "../../helpers/Footer"
+import CommentForm from "../../helpers/CommentForm"
+import CommentsList from "../../helpers/CommentList"
 import "./Home.css"
 import iconSF from "../../../assets/StatWIcon.png"
 import iosIcon from "../../../assets/ios.png"
@@ -31,6 +33,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <CommentForm/>
+            <CommentsList/>
             <footer><Footer /></footer>
         </div>
 
