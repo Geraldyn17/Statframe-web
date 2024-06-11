@@ -1,5 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import NavigationBar from "./components/helpers/Nav";
+
+import Historia from "./components/layouts/pages/Historia"
 import Home from "./components/layouts/pages/Home";
 import Noticias from "./components/layouts/pages/Noticias";
 
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
 {
   path: "noticias",
   element:<Noticias/>
+},
+{
+  path: "/historia",
+  element: <Historia/>
 }
 
 ])
