@@ -8,11 +8,9 @@
 }
 .commentsContainer{
     color: white;
-    margin: 3%;
+    background-color: rgba(119, 77, 77, 0.164);
+   padding: 2%;
 }
 .comment{
     margin-bottom: 20px;
-}
-.comment{
-    display: flex;
 }

@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import axios from 'axios';
+import "./Comments.css"
 
 const CommentForm = () => {
   const [email, setEmail] = useState('');

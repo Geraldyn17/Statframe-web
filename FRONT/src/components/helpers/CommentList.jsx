@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import "./Comments.css"
 
 const CommentsList = () => {
   const [comments, setComments] = useState([]);
@@ -38,10 +39,10 @@ const CommentsList = () => {
   };
 
   return (
-    <div>
+    <div className='commentsContainer'>
       <h2>Comentarios</h2>
       {comments.map((comment) => (
-        <div key={comment.id}>
+        <div className='comment' key={comment.id}>
           <p> ({new Date(comment.date).toLocaleString()}):</p>
           {editMode === comment.id ? (
             <div>
