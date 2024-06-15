@@ -10,7 +10,7 @@ const NavigationBar = () => {
       <ul className='bar'>
         <li><Link to="/"><img className='imgLogo' src={logo} alt="" /></Link></li>
         <li className='A1'><Link to="/noticias">Noticias</Link></li>
-        <li className='A1'><a href="/">Historia</a></li>
+        <li className='A1'><Link to= "/historia">Historia</Link></li>
       </ul>
         
       
